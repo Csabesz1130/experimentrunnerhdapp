@@ -1,0 +1,49 @@
+/* styles.css */
+.root {
+    -fx-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -fx-background-color: #f0f0f0;
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+.text-field, .password-field {
+    -fx-padding: 8;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 4;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f8f8f8;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-font-size: 14px;
+}
+
+.text-area {
+    -fx-font-size: 12px;
+}
+
+.check-box {
+    -fx-font-size: 12px;
+}
+
+.radio-button {
+    -fx-font-size: 12px;
+}
